@@ -1,0 +1,218 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    max-width: 1000px;
+    margin: 70px auto;
+}
+/* banner styles */
+.banner{
+    background-image: url('../images/banner/banner1.png');
+    background-position:bottom left;
+    background-size: cover;
+}
+.banner-text{
+    text-align: right;
+    padding: 0px 45px;
+
+}
+.banner-title{
+    color: var(--dark-01, #151414);
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.hader-banner{
+    width: 515px;
+    margin-left: 720px;
+    padding-top: 50px;
+}
+.banner-des{
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0;
+}
+.btn-main{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+.btn-sec{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.btn-trd{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 1px solid #F15B22;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+/* history styles */
+.his-img img{
+    width: 200%;
+}
+.history{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+}
+.his-title{
+    color: var(--dark-01, #151414);
+    font-size: 50px;
+    font-weight: 700;
+}
+.his-des{
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px 0;
+}
+.his-poi{
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.his-bio{
+    margin-left: 300px;
+}
+i{
+    color: rgb(245, 157, 141);
+    padding-right: 10px;
+}
+/* My Plan Styles */
+.plan-heading{
+    text-align: center;
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+.my-plan-main{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-item{
+    align-items: center;
+    text-align: center;
+}
+.plan-item h4{
+    color: var(--dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 18px 0;
+}
+.plan-item p{
+    color: var(--dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
+}
+/* Mindset stylse */
+.mindset{
+    background-image: url('../images/gradient3.png') , url('../images/watch.png');
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 80px 0;
+}
+.mindset h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.mind-text{
+    padding-top: 10px;
+    padding-left: 55px;
+}
+/* Footer Styles */
+.footer{
+    background-color: #151414;
+}
+.footer-text{
+    max-width: 500px;
+}
+.footer-text i{
+    color: #F15B22;
+    font-size: 20px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.footer-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 130px;
+    padding-bottom: 16px;
+}
+.footer-des{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+}
+.footer-mail{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-phone{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.form-title{
+    padding-top: 130px;
+    padding-bottom: 16px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+input{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid tomato;
+    padding: 0 15px;
+}
+form{
+    padding: 30px 0;
+}
